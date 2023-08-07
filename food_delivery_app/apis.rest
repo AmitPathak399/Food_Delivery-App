@@ -1,0 +1,13 @@
+http://localhost:5000
+
+### post a new employ
+
+POST http://localhost:5000/api/createuser
+
+Content-Type: application/json
+{
+    "name":"pujan",
+    "password":"1234567",
+    "email":"akp12@hotmail.com",
+    "location":"India"
+}
